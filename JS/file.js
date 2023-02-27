@@ -71,17 +71,22 @@ form.addEventListener("submit", e=>{
     e.preventDefault();
     btnGuardarContacto.addEventListener("click",()=>{
         alertaContactoExitoso.showModal();
-         modal.close();
+        modal.close();
     });
 });
 
 
 btncerrarAlerta.addEventListener("click",()=>{
     alertaContactoExitoso.close();
-})
+});
 
 
+/////////////////////////////////////////// Mensajes.html //////////////////////
+const btnMensaje= document.getElementById("btnMensaje");
+const dialogMensaje= document.getElementById("dialogMensaje");
 
+function MostrarNuevoMensaje(){
+    dialogMensaje.showModal();
+}
 
-
-/////////////////////////////////////////// 
+btnMensaje.addEventListener("click", MostrarNuevoMensaje);

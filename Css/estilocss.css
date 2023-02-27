@@ -1,0 +1,116 @@
+* {
+	font-family: 'Smooch', cursive;
+	font-size: 15px;
+    box-sizing: border-box;
+}
+
+.mainNav{
+	background-color: #eef1f5;
+}
+
+body {
+	background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg-white{
+	background-color: #ffffff;
+}
+
+.bg-informacionPersonal{
+	background-color: #D4D3D0;
+}
+
+.lista{
+	text-align: justify;
+}
+
+.h3-font {
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+
+.icon{
+	color: #ffffff;
+}
+
+ 
+#nombre{
+	text-align: center;
+}
+
+@media (max-width: 290px){
+	.LogoNav{
+		width: 200px;
+	}
+	*{
+		font-size: 11px;
+	}
+}
+
+@media(min-width:300px) and (max-width: 576px){
+	.LogoNav{
+		width: 275px;
+	}
+	.FotoPerfil{
+		display: block;
+		margin: auto;
+	}
+	
+}
+
+@media (min-width: 576px){
+	.LogoNav{
+		width: 350px;
+	}
+	.FotoPerfil{
+		display: block;
+		margin: auto;
+	}
+	*{
+		font-size: 14px;
+	}
+}
+
+#nav_a:hover{
+	color: #eb0c0c;
+}
+#nav_a{
+	display: inline-block;
+	margin: 3px;
+}
+
+
+
+.cont-contactos{
+	background-color: #ffffff;
+	border: solid #464543 2px;
+	height: 600px;
+}
+
+
+#modal::backdrop{
+	background-color: rgba(0, 0, 0, .55);
+}
+
+#modal{
+	max-width: 600px;
+}
+
+.mensaje-alerta-contacto{
+	max-width: 400px;
+	
+}
+
+/* Estilos para cambio de modo */
+.dark {
+	background: #525252; 
+	background: -webkit-linear-gradient(to right, #3d72b4, #525252); 
+	background: linear-gradient(to right, #3d72b4, #525252); 	
+	}
+
+.navDark{
+	background-color: #3c3c3c;
+}
